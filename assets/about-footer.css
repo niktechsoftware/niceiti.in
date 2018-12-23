@@ -1,0 +1,271 @@
+.footer {
+  padding: 50px 0;
+  background-color: #2a2a2a;
+  width: 100%;
+  float: left;
+  margin-top: -80px;
+}
+.footer-widget {
+  width: 100%;
+  float: left;
+}
+.footer-widget .widget-title {
+  width: 100%;
+  float: left;
+  border-bottom: solid 1px #CCCCCC;
+  margin-bottom: 20px;
+  position: relative;
+}
+.footer-widget .widget-title h1,
+.footer-widget .widget-title h2 {
+  color: #cccccc;
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  padding-bottom: 20px;
+  border-bottom: solid 1px #008080;
+  margin-bottom: -1px;
+  display: inline-block;
+}
+.footer-widget .widget-title h1 {
+  font-size: 23px;
+}
+.footer-widget .widget-title h2 {
+  font-size: 18px;
+}
+
+.footer-widget .widget-content {
+  width: 100%;
+  float: left;
+}
+.footer-widget .widget-content .links {
+  width: 100%;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.footer-widget .widget-content .links li {
+  width: 100%;
+  display: inline-block;
+}
+.footer-widget .widget-content .links li a {
+  width: 100%;
+  display: inline-block;
+  color: #aaaaaa;
+  text-decoration: none;
+  padding: 5px 0;
+  font-size: 15px;
+  font-family: 'Oswald', sans-serif;
+}
+.footer-widget .widget-content p {
+  width: 100%;
+  float: left;
+  color: #cccccc;
+  font-size: 13px;
+  font-family: Verdana, Arial, sans-serif;
+  line-height: 18px;
+}
+
+.footer-widget .widget-content address {
+  line-height: 31px;
+  width: 100%;
+  display: inline-block;
+  color: #aaaaaa;
+  text-decoration: none;
+  padding: 5px 0;
+  font-size: 15px;
+  font-family: 'Oswald', sans-serif;
+}
+.footer-widget .slider-controls button {
+  color: #999999;
+}
+.footer-widget .slider-controls button:hover {
+  border: solid 2px #999999;
+}
+.footer-widget .flexslider {
+  background-color: transparent;
+  margin: 0;
+  border: none;
+  -webkit-border-radius: 0;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 0;
+  -moz-background-clip: padding;
+  border-radius: 0;
+  background-clip: padding-box;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.footer-form .input-group {
+  margin-bottom: 10px;
+}
+.footer-form .input-group-addon {
+  background: transparent;
+  border: solid 1px #CCCCCC;
+  border-right: none;
+  -webkit-border-radius: 0;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 0;
+  -moz-background-clip: padding;
+  border-radius: 0;
+  background-clip: padding-box;
+  color: #aaaaaa;
+}
+.footer-form input[type='text'],
+.footer-form input[type='email'],
+.footer-form textarea {
+  background-color: #2a2a2a;
+  -webkit-border-radius: 0;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 0;
+  -moz-background-clip: padding;
+  border-radius: 0;
+  background-clip: padding-box;
+  border-color: #CCCCCC;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  padding: 6px 12px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.footer-form input[type='text']::-webkit-input-placeholder,
+.footer-form input[type='email']::-webkit-input-placeholder,
+.footer-form textarea::-webkit-input-placeholder {
+  color: #aaaaaa;
+}
+.footer-form input[type='text']::-moz-placeholder,
+.footer-form input[type='email']::-moz-placeholder,
+.footer-form textarea::-moz-placeholder {
+  color: #aaaaaa;
+}
+.footer-form input[type='text']:-ms-input-placeholder,
+.footer-form input[type='email']:-ms-input-placeholder,
+.footer-form textarea:-ms-input-placeholder {
+  color: #aaaaaa;
+}
+.footer-form input[type='text']:-moz-placeholder,
+.footer-form input[type='email']:-moz-placeholder,
+.footer-form textarea:-moz-placeholder {
+  color: #aaaaaa;
+}
+.footer-form input[type='text']:focus,
+.footer-form input[type='email']:focus,
+.footer-form textarea:focus {
+  border-color: #444444;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.footer-form textarea {
+  background-image: url('images/pencil.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding-left: 37px;
+}
+.footer-form input[type='text'],
+.footer-form input[type='email'] {
+  height: 44px;
+  border-left: none;
+  padding: 6px 12px 6px 0px;
+}
+.footer-form textarea {
+  margin-bottom: 20px;
+}
+
+
+
+.separator.footer-separator {
+  border-bottom: solid 1px #212121;
+}
+.separator.footer-separator.middle:after {
+  background-color: #999999;
+}
+.separator .scroll-top {
+  width: 34px;
+  height: 24px;
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  margin-left: -19px;
+  border: solid 2px #505050;
+  -webkit-border-radius: 3px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 3px;
+  -moz-background-clip: padding;
+  border-radius: 3px;
+  background-clip: padding-box;
+  background: #2a2a2a url('images/scroll-top.png') center center no-repeat;
+  text-indent: -9999px;
+  text-transform: capitalize;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.separator .scroll-top:hover {
+  background-color: #80B404;
+  border: solid 2px #80B404;
+}
+
+.social-links ul {
+  list-style: none;
+  width: 100%;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+}
+.social-links ul li {
+  display: inline-block;
+}
+.social-links ul li a {
+  width: 40px;
+  height: 40px;
+  background-color: #3b3b3b;
+  text-indent: -9999px;
+  text-align: left;
+  text-transform: capitalize;
+  margin-left: 10px;
+  display: inline-block;
+  background-image: url('images/social-icon.png');
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.social-links ul li a:hover {
+  background-color: #80B404;
+}
+.social-links ul li a.facebook {
+  background-position: 0 0;
+}
+.social-links ul li a.twitter {
+  background-position: 0 -40px;
+}
+.social-links ul li a.rss {
+  background-position: 0 -80px;
+}
+.social-links ul li a.digg {
+  background-position: 0 -120px;
+}
+.social-links ul li a.linkedin {
+  background-position: 0 -160px;
+}
+.social-links ul li a.flickr {
+  background-position: 0 -200px;
+}
+.social-links ul li a.skype {
+  background-position: 0 -240px;
+}
+.social-links ul li a.email {
+  background-position: 0 -280px;
+}
+.copyright p {
+  font-size: 13px;
+  font-family: Verdana, Arial, sans-serif;
+  line-height: 40px;
+  color: #777777;
+}

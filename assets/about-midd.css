@@ -1,0 +1,80 @@
+.data-widget {
+  width: 100%;
+  float: left;
+}
+.data-widget .data-title {
+  width: 100%;
+  float: left;
+  border-bottom: solid 1px #CCCCCC;
+  margin-bottom: 20px;
+  position: relative;
+}
+.data-widget .data-title h1,
+.data-widget .data-title h2 {
+  color: #424242;
+  margin: 0;
+  margin-top: 15px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  padding-bottom: 20px;
+  border-bottom: solid 1px #153854;
+  margin-bottom: -1px;
+  display: inline-block;
+}
+.data-widget .data-title h1 {
+  font-size: 23px;
+}
+.data-widget .data-title h2 {
+  font-size: 18px;
+}
+
+.pText{
+clear: both;
+font-size: 12px;
+text-align: justify;
+line-height: 28px;
+}
+
+.pText1{
+clear: both;
+font-size: 12px;
+text-align: justify;
+margin: 0px;
+margin-left: 15px;
+}
+
+.bottomBorder{
+	clear: both;
+	border: 1px dashed #666;
+	border-right: none;
+	border-left: none;
+	border-top: none;
+	margin:8px 40px 8px 12px;
+}
+
+.bot-grid{
+	background:#fff;
+	box-shadow: 0 0 5px #999;
+}
+.bot-grid img{
+	box-shadow: 0 0 5px #999;
+}
+.bot-grid img:hover{
+	opacity: 0.9;
+}
+.bot-grid h3{
+	font-family: 'Oswald', sans-serif;
+	color:#666;
+	font-size:20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.bot-grid p{
+	font-size:13px;
+	color:#666;
+	text-align: justify;
+	line-height: 1.8em;
+	padding: 0 20px 20px 20px;
+}
